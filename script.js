@@ -10,3 +10,7 @@ var div2Click = document.querySelector('.div2');
 div2Click.addEventListener('click', function(){
   alert("take me down to 34th street where The Disco Biscuits are the king of the beat");
 });
+
+myfunction=function() {
+	alert("button pressed");
+}
