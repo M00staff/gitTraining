@@ -2,6 +2,13 @@
   background-color: blue;
 }
 
-.div2 {
-  background-color: red
+#header {
+	color: blue;
 }
+a {
+	columns: red;
+}
+.div2 {
+	background: red;
+}
+
