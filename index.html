@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 
   <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
@@ -9,18 +9,36 @@
 
   <body>
 
+  <div> New </div>
+  
+  <button onclick="myfunction()">Click me</button>
+
+
+<h2 id="header">A lot of content.</h2>
+<a href="http://google.com">Google</a>
+
 
     <div class="div1">
       content
     </div>
 
-    <div class="div2">
+
+    <div class="div2" id="id">
       More content
     </div>
 
     <div class="div3">
-      Even more content
+      <img src="http://i.imgur.com/bDA2AnF.gif">
     </div>
+
+
+  <script>
+    function myFn(x, y) { 
+      return x * y;
+    }
+    document.getElementById("id").innerHTML = "Well done Mostafa " + myFn(10, 10);
+  </script>
+
 
   <script src="script.js" type"text/javascript"></script>
   </body>
